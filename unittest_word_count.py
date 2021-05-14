@@ -15,7 +15,7 @@ class testCaseAdd(unittest.TestCase):
     
     def test_sentence(self):
         test_val = "This is an activity"
-        self.assertEqual(word_count.count_word(test_val), 4)
+        self.assertEqual(word_count.count_word(test_val), 3) #fail test should be 4
 
 
 

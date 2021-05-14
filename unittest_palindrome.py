@@ -21,7 +21,7 @@ class testCaseAdd(unittest.TestCase):
     
     def test_even_np(self):
         test_val = "aabb"
-        self.assertEqual(palindrome.is_palindrome(test_val), False)
+        self.assertEqual(palindrome.is_palindrome(test_val), True)#fail test should be False
 
     def test_odd_p(self):
         test_val = "aba"
@@ -29,8 +29,7 @@ class testCaseAdd(unittest.TestCase):
 
     def test_odd_np(self):
         test_val = "abc"
-        self.assertEqual(palindrome.is_palindrome(test_val), False)
-
+        self.assertEqual(palindrome.is_palindrome(test_val), True) #fail test should be False
 
 if __name__ == '__main__':
     unittest.main()

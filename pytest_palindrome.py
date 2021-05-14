@@ -17,8 +17,8 @@ def test_even_p():
 
 def test_even_np():
     test_case = "ab"
-    answer = palindrome.is_palindrome(test_case)
-    assert answer == False
+    answer = palindrome.is_palindrome(test_case) #fail test should be False
+    assert answer == True
 
 def test_odd_p():
     test_case = "aba"
@@ -27,5 +27,5 @@ def test_odd_p():
 
 def test_odd_np():
     test_case = "abc"
-    answer = palindrome.is_palindrome(test_case)
-    assert answer == False
+    answer = palindrome.is_palindrome(test_case) #fail test should be False
+    assert answer == True

@@ -13,5 +13,5 @@ def test_single():
 def test_even_p():
     test_case = "This is an activity"
     answer = word_count.count_word(test_case)
-    assert answer == 4
+    assert answer == 3                          #fail test should be 4
 
